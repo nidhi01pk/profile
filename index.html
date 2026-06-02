@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nidhish Sha K P | AI & Robotics Innovator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <div id="loader">
+        <div class="loader-content">
+            <div class="loader-ring"></div>
+            <h2>Loading Portfolio...</h2>
+        </div>
+    </div>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-blue">&lt;</span>Nidhish<span class="logo-blue">/&gt;</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#timeline">Journey</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <button id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div id="particles"></div>
+        <div class="hero-content">
+            <div class="hero-left">
+                <div class="hero-tag">2nd year ECE Student</div>
+                <h1>Nidhish Sha K P</h1>
+                <div class="typing-container">
+                    <span id="typing-text"></span>
+                    <span class="typing-cursor">|</span>
+                </div>
+                <p>
+                    Passionate about Artificial Intelligence, Robotics, Embedded Systems and Full Stack Development. 
+                    Building innovative technologies that solve real-world problems and shape the future.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> View Projects
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i> Contact Me
+                    </a>
+                </div>
+                <div class="hero-socials">
+                    <a href="https://github.com/nidhi01pk" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/nidhish01/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:nidhi01pk@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+
+            <div class="hero-right">
+                <div id="constellation-container">
+                    <canvas id="string-canvas"></canvas>
+                </div>
+                <div class="profile-card">
+                    <img src="profile.jpg" alt="Nidhish" class="profile-img">
+                    <div class="status status-left">
+                        <div class="status-dot"></div>
+                        Available For Innovation
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card glass">
+                    <h2 class="counter" data-target="45">0</h2>
+                    <p>Projects Built</p>
+                </div>
+                <div class="stat-card glass">
+                    <h2 class="counter" data-target="8">0</h2>
+                    <p>Domains</p>
+                </div>
+                <div class="stat-card glass">
+                    <h2 class="counter" data-target="2000">0</h2>
+                    <p>Development Hours</p>
+                </div>
+                <div class="stat-card glass">
+                    <h2 class="counter" data-target="1">0</h2>
+                    <p>Humanoid Robot Goal</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <span>About Me</span>
+                <h2>Turning Ideas Into Reality</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text glass">
+                    <p>I am a young technology innovator passionate about Artificial Intelligence, Robotics, Embedded Systems, and Web Development.</p>
+                    <p>My long-term vision is to create advanced humanoid robots, AI-powered assistants, and intelligent systems that can improve everyday human life.</p>
+                    <p>I enjoy transforming ambitious concepts into practical working products through software, electronics, and artificial intelligence.</p>
+                    <p>@ Vel Tech Multi Tech Dr. Rangarajan Dr. Sakunthala Engineering College</p>
+                </div>
+                <div class="about-cards">
+                    <div class="glass about-card">
+                        <i class="fas fa-robot"></i>
+                        <h3>Robotics</h3>
+                        <p>Building intelligent robotic systems.</p>
+                    </div>
+                    <div class="glass about-card">
+                        <i class="fas fa-brain"></i>
+                        <h3>Artificial Intelligence</h3>
+                        <p>Creating AI-powered applications.</p>
+                    </div>
+                    <div class="glass about-card">
+                        <i class="fas fa-microchip"></i>
+                        <h3>Embedded Systems</h3>
+                        <p>Hardware and IoT innovations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <div class="section-title">
+                <span>Technical Arsenal</span>
+                <h2>Skills & Technologies</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-box glass">Python</div>
+                <div class="skill-box glass">Artificial Intelligence</div>
+                <div class="skill-box glass">Machine Learning</div>
+                <div class="skill-box glass">Computer Vision</div>
+                <div class="skill-box glass">Arduino</div>
+                <div class="skill-box glass">ESP32</div>
+                <div class="skill-box glass">Firebase/SQL</div>
+                <div class="skill-box glass">JavaScript</div>
+                <div class="skill-box glass">HTML/CSS</div>
+                <div class="skill-box glass">Robotics</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <div class="section-title">
+                <span>Portfolio</span>
+                <h2>Featured Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card glass">
+                    <div class="project-icon"><i class="fas fa-user-check"></i></div>
+                    <h3>Sport Track</h3>
+                    <p>Attendance Management System with Face Recognition and Android integration.</p>
+                    <div class="project-tags"><span>AI</span><span>Android</span><span>OpenCV</span></div>
+                </div>
+                <div class="project-card glass">
+                    <div class="project-icon"><i class="fas fa-eye"></i></div>
+                    <h3>EchoZen</h3>
+                    <p>Smart AI Assistant Device designed for visually impaired users.</p>
+                    <div class="project-tags"><span>AI</span><span>IoT</span><span>Assistive Tech</span></div>
+                </div>
+                <div class="project-card glass">
+                    <div class="project-icon"><i class="fas fa-home"></i></div>
+                    <h3>Home Automation System</h3>
+                    <p>Control electrical appliances remotely using ESP8266 and IoT technologies.</p>
+                    <div class="project-tags"><span>ESP8266</span><span>IoT</span><span>Automation</span></div>
+                </div>
+                <div class="project-card glass">
+                    <div class="project-icon"><i class="fas fa-car"></i></div>
+                    <h3>Self Driving Mini Car</h3>
+                    <p>Autonomous navigation system using sensors and intelligent control algorithms.</p>
+                    <div class="project-tags"><span>Robotics</span><span>AI</span><span>Sensors</span></div>
+                </div>
+                <div class="project-card glass">
+                    <div class="project-icon"><i class="fas fa-gamepad"></i></div>
+                    <h3>Gesture Controlled Gaming</h3>
+                    <p>Play games through hand gestures using Computer Vision.</p>
+                    <div class="project-tags"><span>OpenCV</span><span>MediaPipe</span><span>Gaming</span></div>
+                </div>
+                <div class="project-card glass">
+                    <div class="project-icon"><i class="fas fa-robot"></i></div>
+                    <h3>TITAN</h3>
+                    <p>Semi-Humanoid Intelligent Robot (Currently Under Development).</p>
+                    <div class="project-tags"><span>Robotics</span><span>AI</span><span>Humanoid</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="titan-section">
+        <div class="container">
+            <div class="titan-card glass">
+                <div class="titan-left">
+                    <span class="section-small">FLAGSHIP PROJECT</span>
+                    <h2>TITAN</h2>
+                    <h3>Semi-Humanoid Intelligent Robot</h3>
+                    <p>TITAN is my long-term robotics initiative focused on building an intelligent semi-humanoid robot capable of human interaction, environmental awareness, and AI-powered decision making.</p>
+                    <div class="titan-features">
+                        <div><i class="fas fa-check"></i> Voice Interaction</div>
+                        <div><i class="fas fa-check"></i> Computer Vision</div>
+                        <div><i class="fas fa-check"></i> Autonomous Actions</div>
+                        <div><i class="fas fa-check"></i> AI Integration</div>
+                    </div>
+                </div>
+                <div class="titan-right">
+                    <div class="robot-circle">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="timeline">
+        <div class="container">
+            <div class="section-title">
+                <span>Journey</span>
+                <h2>My Innovation Timeline</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass">
+                        <h3>2024</h3>
+                        <p>Built RF Temperature & Humidity Satellite Project.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass">
+                        <h3>2025</h3>
+                        <p>Developed Smart Device with AI Assistant for Blinds.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass">
+                        <h3>2025</h3>
+                        <p>Created AI Voice Assistant.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass">
+                        <h3>2026</h3>
+                        <p>Started TITAN Humanoid Robot Development.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <span>Contact</span>
+                <h2>Let's Build Something Amazing</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="glass contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>nidhi01pk@gmail.com</p>
+                </div>
+                <div class="glass contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p>+91 7305451044</p>
+                </div>
+                <div class="glass contact-card">
+                    <i class="fas fa-location-dot"></i>
+                    <h3>Location</h3>
+                    <p>Chennai, India</p>
+                </div>
+            </div>
+            <div class="contact-socials">
+                <a href="https://github.com/nidhi01pk" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/nidhish01/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:nidhi01pk@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <h3>Nidhish Sha K P</h3>
+            <p>AI • Robotics • Innovation</p>
+            <p>Building the Future Through Technology.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/nidhi01pk"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/nidhish01/"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:nidhi01pk@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p class="copyright">© 2026 Nidhish Sha K P. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <button id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
